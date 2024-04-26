@@ -24,6 +24,7 @@ const SideNav = () => {
           width={56}
           height={39}
           className="pt-8"
+          alt = "Image"
         ></Image>
         <nav className="flex flex-col items-center gap-10 px-2 sm:py-5 ">
           <TooltipProvider>
@@ -105,7 +106,7 @@ const SideNav = () => {
                   href="#"
                   className="flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8"
                 >
-                 <Image src="/Chat/Ira.jpg" width={60} height={0} className="rounded-full w-20"></Image>
+                 <Image alt = "Image" src="/Chat/Ira.jpg" width={60} height={0} className="rounded-full w-20"></Image>
 
                   <span className="sr-only">Settings</span>
                 </Link>

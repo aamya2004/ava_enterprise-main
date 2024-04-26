@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-full h-full  flex items-center ">
       <div className="absolute  bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900 via-black to-black
       w-9/12 h-5/6 text-white flex flex-col items-center justify-center">
-       <Image src="/Login/logo.png" width={400} height={400} />  
+       <Image src="/Login/logo.png" alt="LoginLogo" width={400} height={400} />  
       </div>
     </div>
       <div className="absolute h-screen w-4/12 right-0 bg-gradient-to-b from-slate-900 to-indigo-900 xl:w-1/4">

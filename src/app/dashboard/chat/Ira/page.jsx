@@ -13,7 +13,7 @@ const page = () => {
       
             flex  items-center justify-center gap-3"
         >
-                 <Image src="/Chat/Ira.jpg" width={50} height={0} className="rounded-full w-10"></Image>
+                 <Image src="/Chat/Ira.jpg" alt = "Image" width={50} height={0} className="rounded-full w-10"></Image>
 
           <div className="text-white text-2xl font-bold">Ira</div>
         </div>
@@ -22,7 +22,7 @@ const page = () => {
             src="/Chat/logo2.png"
             width={100}
             height={100}
-            className=""
+            alt = "Image"
           ></Image>
           <p className="text-slate-500 text-2xl">How was your day?</p>
         </div>

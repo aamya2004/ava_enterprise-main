@@ -12,7 +12,7 @@ const page = () => {
               className="bg-white  h-60 w-48 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100
             flex flex-col items-center justify-center gap-4"
             >
-                 <Image src="/Chat/Ira.jpg" width={60} height={0} className="rounded-full w-20"></Image>
+                 <Image src="/Chat/Ira.jpg" alt = "Image" width={60} height={0} className="rounded-full w-20"></Image>
 
               Ira
               <button className="bg-slate-100 text-black text-sm px-4 py-2 rounded-lg hover:bg-indigo-900 hover:text-white hover:font-bold" asChild>
@@ -24,7 +24,7 @@ const page = () => {
             flex flex-col items-center justify-center gap-4"
             >
   
-              <Image src="/Chat/Ira.jpg" width={60} height={0} className="rounded-full w-20"></Image>
+              <Image src="/Chat/Ira.jpg" alt = "Image" width={60} height={0} className="rounded-full w-20"></Image>
               Ira
               <button className="bg-slate-100 text-black text-sm px-4 py-2 rounded-lg hover:bg-indigo-900 hover:text-white hover:font-bold" asChild>
                 <Link href="/dashboard/chat/Ira">Select</Link>

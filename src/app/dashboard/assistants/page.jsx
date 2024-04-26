@@ -43,6 +43,7 @@ const Page = () => {
               width={60}
               height={0}
               className="rounded-full w-18"
+              alt = "Image"
             ></Image>
             Ira
             <div className="flex gap-16 items-center">
@@ -66,6 +67,7 @@ const Page = () => {
               width={60}
               height={0}
               className="rounded-full w-18"
+              alt = "Image"
             ></Image>
             Ira
             <div className="flex gap-16 items-center">

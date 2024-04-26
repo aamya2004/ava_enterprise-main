@@ -33,7 +33,7 @@ const IntegratedApps = () => {
           {apps.map((app, index) => (
             <li key={index}>
               <div className="w-full h-full flex  gap-20 items-center bg-black p-2 rounded-md">
-                  <Image src={app.logo} width={24} height={24}></Image>
+                  <Image src={app.logo} alt = "Image" width={24} height={24}></Image>
                   <p>{app.name}</p>
                   <div className="bg-green-600 bg-opacity-50 h-6 w-16 rounded-md  text-center">
                     <p className="text-green-300">{app.status}</p>
