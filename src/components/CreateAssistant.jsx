@@ -6,6 +6,7 @@ import FilesData from "./FilesData";
 import { BiSolidSave } from "react-icons/bi";
 import { AiFillEdit } from "react-icons/ai";
 
+
 const CreateAssistant = ({ folder, onClose }) => {
   const [profilePicture, setProfilePicture] = useState(null);
 
@@ -36,13 +37,6 @@ const CreateAssistant = ({ folder, onClose }) => {
               style={{ cursor: "pointer" }}
               onClick={handleAddPictureClick}
             >
-              {profilePicture ? (
-                <img
-                  src={URL.createObjectURL(profilePicture)}
-                  alt="Profile Picture"
-                  className="w-full h-full object-cover"
-                />
-              ) : null}
             </div>
             <FiPlus
               className="text-4xl bg-zinc-500 rounded-full text-zinc-100 absolute cursor-pointer bottom-4 left-3/4 transform -translate-x-1/2 translate-y-1/2"
